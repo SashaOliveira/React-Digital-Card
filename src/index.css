@@ -1,13 +1,108 @@
 body {
+  background-color: #23252C;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Inter, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* info-card style */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.info-page p {
+  color: #F3BF99;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.email-btn {
+  background-color: #D1D5DB;
+  color: #23252C;
+  padding: 6px 100px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 15px;
+}
+
+.profile-pic {
+  width: 317px;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+
+.card {
+  width: 317px;
+  height: 780px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* about interest  */
+
+.about-page, .interest-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+  color: #fff;
+}
+
+.about-page h2, .interest-page h2 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 5px;
+}
+
+.about-page p, .interest-page p {
+  font-size: 1rem;
+  padding: 0;
+  margin: 5px;
+  font-style: italic;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252C;
+  color: #fff;
+  height: 110px;
+  background: #161619;
+}
+
+.footer-icon {
+  color: #918E9B;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  border-radius: 20px;
 }
